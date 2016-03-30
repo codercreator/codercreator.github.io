@@ -1898,9 +1898,9 @@
 	button,
 	<form>
   First name:<br>
-  <input type="text" name="firstname"><br>
+  <input type="text" name="Type your first name"><br>
   Last name:<br>
-  <input type="text" name="lastname">
+  <input type="text" name="Type your last name">
 </form>
 	.button {
 		position: relative;
