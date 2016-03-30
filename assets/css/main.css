@@ -1810,6 +1810,11 @@
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out;
 	}
+	<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
 
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
@@ -1898,9 +1903,9 @@
 	button,
 	<form>
   First name:<br>
-  <input type="text" name="Type your first name"><br>
+  <input type="text" name="firstname"><br>
   Last name:<br>
-  <input type="text" name="Type your last name">
+  <input type="text" name="lastname">
 </form>
 	.button {
 		position: relative;
