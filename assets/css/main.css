@@ -1896,6 +1896,12 @@
 	input[type="submit"],
 	input[type="reset"],
 	button,
+	<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form>
 	.button {
 		position: relative;
 		display: inline-block;
